@@ -13,4 +13,8 @@ I started with the code exported from quickdatabasediagrams.com and edited it to
 ## Data Analysis
 Now that my database tables were set up I had a few queries to run. They all ran smoothly, confirming I created a working employee database. 
 
-As I examined the data I could see that it was indeed fake! 
+For example, I was able to see that quite a few employees are named Hercules—male and female alike!
+
+![Sample results from query about the name Hercules](https://github.com/KristaJoy/sql-challenge/blob/main/Images/SampleResults.png)
+
+So as I examined the data I could see that it was indeed fake! 
