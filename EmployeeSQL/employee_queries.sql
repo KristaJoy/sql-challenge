@@ -69,3 +69,16 @@ SELECT last_name, COUNT(last_name) AS "last name count"
 FROM employees
 GROUP BY last_name
 ORDER BY "last name count" DESC;
+
+-- Bonus queries for Pandas Analysis
+SELECT s.salary
+FROM employees AS e
+JOIN salaries AS s ON
+e.emp_no = s.emp_no
+
+SELECT t.title, s.salary
+FROM employees AS e
+JOIN salaries AS s ON
+e.emp_no = s.emp_no
+JOIN titles AS t ON
+e.emp_title_id = t.title_id;
