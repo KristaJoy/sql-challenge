@@ -27,4 +27,4 @@ One limitation of this chart is that unless you run additional code to count the
 
 Lastly, I found the average salary for each job title. Looking at the data you can tell there is something fishy about this data set because the staff makes a higher salary on average than the managers. 
 
-![Chart showing the average salary by job title] (https://github.com/KristaJoy/sql-challenge/blob/main/Images/AverageSalarybyTitle.png)
+![Chart showing the average salary by job title](https://github.com/KristaJoy/sql-challenge/blob/main/Images/AverageSalarybyTitle.png)
